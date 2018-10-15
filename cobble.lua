@@ -9,7 +9,6 @@ while true do
   end
   if turtle.detect() then
     turtle.dig()
-    turtle.suck()
     term.clear()
     term.setCursorPos(1,1)
     print("Filling Chest")
