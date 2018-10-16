@@ -16,9 +16,10 @@ threadCreate = function(procName, procPath)
 		procFile = fs.open(procPath, "r")
 
 		-- Run through the file by loading functions as strings into procTable.
-=======
-threadParts = {}
-
+		threadParts = {}
+	end
+end
+		
 threadCreate = function(procName, procPath)
 	if fs.isDir(procPath) or not fs.exists(procPath) then
 		return false, nil
