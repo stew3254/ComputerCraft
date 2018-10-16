@@ -1,7 +1,7 @@
 -- thread.lua
 --
 -- Code for threaded execution of lua code.
-D
+
 -- Stores all threads that have been created.
 threadParts = {}
 
